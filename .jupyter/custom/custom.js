@@ -1,14 +1,12 @@
 define([
     'base/js/namespace',
     'base/js/events'
-    ],
+    ], 
     function(IPython, events) {
-        events.on("app_initialized.NotebookApp",
+        events.on("app_initialized.NotebookApp", 
             function () {
-                IPython.Cell.options_default.cm_config.lineNumbers = true;
+                require("notebook/js/cell").Cell.options_default.cm_config.lineNumbers = true;
             }
         );
     }
 );
-
-IPython.notebook.set_autosave_interval(0);
