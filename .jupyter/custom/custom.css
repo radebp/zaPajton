@@ -3,12 +3,8 @@
 font-size: 16px !important;
 }
 
-.text_cell .CodeMirror pre {
-    font-family: "Ubuntu";
-    font-size: 15pt;
-}
 
-A few other formatting tweaks, in case you’re interested:
+
 /* Change inner background (for code) */
 div.input_area {
 background: white !important;
@@ -18,15 +14,16 @@ font-size: 15px !important;
 /* Change global font size (for code) */
 .CodeMirror {
 font-size: 15px !important;
-font-family: sans-serif monospace;
+font-family: "Consolas", sans-serif, monospace;
 }
 
 /*These homogenize the colors of various code elements to black (they render better printed) */
 .cm-s-ipython span.cm-negative {color: black;}
 .cm-s-ipython span.cm-positive {color: black;}
-.cm-s-ipython span.cm-keyword{color: brown;}
+.cm-s-ipython span.cm-keyword{color: orange;}
 .cm-s-ipython span.cm-comment{color: darkgray;}
-.cm-s-ipython span.cm-string{color: blue;}
-.cm-s-ipython span.cm-string-2{color: brown;}
+.cm-s-ipython span.cm-string{color: green;}
+.cm-s-ipython span.cm-string-2{color: darkgreen;}
 .cm-s-ipython span.cm-punctuation{color: black;}
 .cm-s-ipython span.cm-number{color: black;}
+.cm-s-ipython span.cm-definition{color: blue;}
