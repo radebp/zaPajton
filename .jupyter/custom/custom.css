@@ -7,21 +7,21 @@ A few other formatting tweaks, in case you’re interested:
 /* Change inner background (for code) */
 div.input_area {
 background: white !important;
-font-size: 16px !important;
+font-size: 14px !important;
 }
 
 /* Change global font size (for code) */
 .CodeMirror {
-font-size: 16px !important;
-font-family: monospace;
+font-size: 14px !important;
+font-family: sans-serif monospace;
 }
 
 /*These homogenize the colors of various code elements to black (they render better printed) */
 .cm-s-ipython span.cm-negative {color: black;}
 .cm-s-ipython span.cm-positive {color: black;}
-.cm-s-ipython span.cm-keyword{color: black;}
-.cm-s-ipython span.cm-comment{color: black;}
-.cm-s-ipython span.cm-string{color: black;}
-.cm-s-ipython span.cm-string-2{color: black;}
+.cm-s-ipython span.cm-keyword{color: maroon;}
+.cm-s-ipython span.cm-comment{color: green;}
+.cm-s-ipython span.cm-string{color: blue;}
+.cm-s-ipython span.cm-string-2{color: brown;}
 .cm-s-ipython span.cm-punctuation{color: black;}
 .cm-s-ipython span.cm-number{color: black;}
