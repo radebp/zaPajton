@@ -1,0 +1,21 @@
+/* Change output font size*/
+.rendered_html table{
+font-size: 16px !important;
+font-family: "Verdana", sans-serif, monospace;
+}
+
+
+
+/* Change inner background (for code) */
+div.input_area {
+background: white !important;
+font-size: 15px !important;
+}
+
+/* Change global font size (for code) */
+.CodeMirror {
+font-size: 15px !important;
+font-family: "Consolas", sans-serif, monospace;
+}
+
+
